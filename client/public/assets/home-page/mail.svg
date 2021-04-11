@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.802" height="32" viewBox="0 0 39.802 32">
+  <g id="mail" transform="translate(1.016 1)">
+    <path id="Path" d="M3.7,0H33.3A3.736,3.736,0,0,1,37,3.75v22.5A3.736,3.736,0,0,1,33.3,30H3.7A3.736,3.736,0,0,1,0,26.25V3.75A3.736,3.736,0,0,1,3.7,0Z" transform="translate(0.385)" fill="rgba(0,0,0,0)" stroke="#818181" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path-2" data-name="Path" d="M37,0,18.5,14,0,0" transform="translate(0.385 3)" fill="rgba(0,0,0,0)" stroke="#818181" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
