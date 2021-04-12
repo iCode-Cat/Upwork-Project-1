@@ -1,11 +1,7 @@
-import global from './pages.module.scss'
-const About = () => {
-  
+const about = () => {
     return ( 
-        <div className={global.container}>
-            <h1>ABOUT</h1>
-        </div>
+        <h1>ABOUT</h1>
      );
 }
  
-export default About;
+export default about;
