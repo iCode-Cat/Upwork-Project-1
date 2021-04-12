@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     margin: -3rem;
+    position: fixed;
+    bottom:3rem;
     background: #333436;
+     width:100%;
+     
     .footer_top {
         display: flex;
         justify-content: space-between;

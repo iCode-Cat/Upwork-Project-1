@@ -9,7 +9,7 @@ const Layout = ({children}) => {
 
     return <div className={styles.container}>
         <Header toggle={toggle} setToggle={setToggle}/>
-        {toggle ? <SideMenu toggle={toggle} setToggle={setToggle} />:''}
+        <SideMenu toggle={toggle} setToggle={setToggle} />
         {children}
         <Footer/>
     </div>    
