@@ -1,5 +1,5 @@
 import styles from './Header.module.scss'
-const Header = () => {
+const Header = ({toggle, setToggle}) => {
     return ( 
         <header className={styles.header}>
         <div className={styles.logo}>
@@ -7,7 +7,7 @@ const Header = () => {
         </div>
         <div className={styles.menu_icons}>
           <img src="assets/home-page/Search-Btn.svg" alt="amer-al-akkad-search"/>
-          <img src="assets/home-page/menu-btn.svg" alt="amer-al-akkad-menu"/>
+          <img onClick={()=>{setToggle(true)}} src="assets/home-page/menu-btn.svg" alt="amer-al-akkad-menu"/>
         </div>
         </header>
      );

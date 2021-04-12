@@ -1,8 +1,8 @@
 import style from './SideMenu.module.scss';
-const SideMenu = () => {
+const SideMenu = ({setToggle}) => {
     return (
         <div className={style.container}>
-            <img src="assets/home-page/cross.svg" alt="amer-al-akkad-menu-close"/>
+            <img onClick={()=>{setToggle(false)}} src="assets/home-page/cross.svg" alt="amer-al-akkad-menu-close"/>
             <div className={style.items}>
             <h1>HOME</h1>
             <h1>ABOUT Web</h1>
