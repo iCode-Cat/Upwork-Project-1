@@ -20,8 +20,11 @@
                 font-size: 1.6rem;
                 color: #818181;
             }
-            display: flex;
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: auto auto auto;
             align-items: center;
+            align-content: flex-start;
             gap: 3rem;
             
             img {
