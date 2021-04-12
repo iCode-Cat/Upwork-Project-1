@@ -1,0 +1,5 @@
+<svg id="menu_btn" data-name="menu btn" xmlns="http://www.w3.org/2000/svg" width="29" height="31" viewBox="0 0 29 31">
+  <rect id="menu_btn_Close_background" data-name="menu btn Close background" width="29" height="31" fill="none"/>
+  <path id="Line" d="M21.145.371.371,22.629" transform="translate(3.742 4)" fill="none" stroke="#818181" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path id="Line-2" data-name="Line" d="M-21.145.371-.371,22.629" transform="translate(25.258 4)" fill="none" stroke="#818181" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+</svg>
