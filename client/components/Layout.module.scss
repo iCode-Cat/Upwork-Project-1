@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 3rem;
-    height: 100vh;
+    min-height: 100vh;
+min-height: -webkit-fill-available;
     background: #212223;
 }
