@@ -20,12 +20,12 @@
                 font-size: 1.6rem;
                 color: #818181;
             }
-            display: grid;
-            grid-template-rows: 1fr;
-            grid-template-columns: auto auto auto;
+            display: flex;
             align-items: center;
-            align-content: flex-start;
-            gap: 3rem;
+            grid-template-columns: repeat(3, 1fr);
+            :nth-child(2) {
+                margin: 0 3rem;
+            }
             
             img {
                 cursor: pointer;
