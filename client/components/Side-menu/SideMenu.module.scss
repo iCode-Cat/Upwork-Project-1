@@ -4,7 +4,8 @@
     z-index: 999;
     align-items: flex-start;
     position: absolute;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: -webkit-fill-available;
     margin: -3rem;
     padding: 3.4rem 2.7rem;
     width: 300px;
