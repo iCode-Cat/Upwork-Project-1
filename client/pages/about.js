@@ -6,13 +6,13 @@ const About = () => {
         <div className={global.container}>
             <main className={styles.main}>
                 <section className={styles.box}>
-                    <img className={styles.photo} src="/assets/about/amer-al-akkad.svg" alt="amer-al-akkad-freelancer"/>
+                    <img width='auto' height='auto' className={styles.photo} src="/assets/about/amer-al-akkad.svg" alt="amer-al-akkad-freelancer"/>
                 </section>
                 <section className={styles.box}>
                 <h1>
                 AMER ALAKKAD
                 </h1>
-                <img src="/assets/home-page/Adobe-Logo.svg" alt="amer-al-akkad-adobe-certified-expert"/>
+                <img width='auto' height='auto' src="/assets/home-page/Adobe-Logo.svg" alt="amer-al-akkad-adobe-certified-expert"/>
                 <ul>
                     <li>• Adobe Photoshop</li>
                     <li>• Adobe InDesign</li>
