@@ -3,7 +3,7 @@ import Link from 'next/link'
 const SideMenu = ({setToggle, toggle}) => {
     return (
         <div className={`${style.container} ${toggle ? 'side-anim':'side-anim-out'}`}>
-            <img onClick={()=>{setToggle(false)}} src="assets/home-page/cross.svg" alt="amer-al-akkad-menu-close"/>
+            <img width='auto' height='auto' onClick={()=>{setToggle(false)}} src="assets/home-page/cross.svg" alt="amer-al-akkad-menu-close"/>
             <div className={style.items}>
             <Link href='/'><h1>HOME</h1></Link>
             <Link href='/about'><h1>ABOUT Web</h1></Link>
