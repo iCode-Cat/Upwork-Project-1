@@ -61,6 +61,7 @@
 @media screen and (min-width:600px) {
     .main {
         grid-template-columns: repeat(3, 1fr);
+        max-width: 600px;
     }
     .box:nth-child(2) {
         border-right: solid 1px #A41427;
@@ -68,7 +69,7 @@
     .box:last-child {
         padding-left: 1rem;
         grid-column: unset;
-       p{font-size: 1.23rem;
+       p{font-size: 1.43rem;
        }
     }
 }
