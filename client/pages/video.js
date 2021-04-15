@@ -1,9 +1,10 @@
 import global from './pages.module.scss'
+import Ui from './ux-ui'
 const Video = () => {
   
     return ( 
         <div className={global.container}>
-            <h1>Video</h1>
+            <Ui/>
         </div>
      );
 }

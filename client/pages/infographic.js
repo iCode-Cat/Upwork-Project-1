@@ -1,9 +1,10 @@
 import global from './pages.module.scss'
+import Ui from './ux-ui'
 const Infographic = () => {
   
     return ( 
         <div className={global.container}>
-            <h1>Infographic</h1>
+            <Ui/>
         </div>
      );
 }

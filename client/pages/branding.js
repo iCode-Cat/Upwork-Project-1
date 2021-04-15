@@ -1,9 +1,10 @@
 import global from './pages.module.scss'
+import Ui from './ux-ui'
 const Branding = () => {
   
     return ( 
         <div className={global.container}>
-            <h1>Branding</h1>
+            <Ui/>
         </div>
      );
 }

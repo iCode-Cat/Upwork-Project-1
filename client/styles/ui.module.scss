@@ -2,7 +2,7 @@
     
     color: #818181;
     flex-direction: column;
-    align-items: flex-start !important;
+    align-items:center!important;
 
     img {
         width: 100%;
@@ -10,6 +10,7 @@
     }
 
 }
+
 
 .showreel {
 display: flex;
@@ -78,57 +79,57 @@ flex-direction: column;
     
 }
 
-@media screen and (min-width:600px) {
-    .main {
-        flex-direction: row;
-        align-items: center !important;
-        justify-content: center !important;
+// @media screen and (min-width:600px) {
+//     .main {
+//         flex-direction: row;
+//         align-items: center !important;
+//         justify-content: center !important;
 
-    }
+//     }
 
 
-    .showreel {
-        margin-right: 1rem;
-        overflow: hidden;
-       img {
-        width: 100%;
-        max-width: 660px;
+//     .showreel {
+//         margin-right: 1rem;
+//         overflow: hidden;
+//        img {
+//         width: 100%;
+//         max-width: 660px;
         
-       }
+//        }
         
-    }
+//     }
 
-    .second {
-        height: 100%;
-        flex-direction: column;
-        width: unset;
+//     .second {
+//         height: 100%;
+//         flex-direction: column;
+//         width: unset;
         
-    }
-    .pagination  {
-        display: none;
-    }
+//     }
+//     .pagination  {
+//         display: none;
+//     }
 
-    .wrapper {
+//     .wrapper {
        
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//     }
 
-    //change 
+//     //change 
 
-    .description {
-        order: 1 !important;
-    }
+//     .description {
+//         order: 1 !important;
+//     }
 
-    .first_column {
-        display: flex;flex-direction: column-reverse;
-        order: 2;
-    }
+//     .first_column {
+//         display: flex;flex-direction: column-reverse;
+//         order: 2;
+//     }
 
-    .second_column {
-        order: 3;
-    }
+//     .second_column {
+//         order: 3;
+//     }
 
     
-}
+// }
